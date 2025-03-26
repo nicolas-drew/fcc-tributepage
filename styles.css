@@ -1,0 +1,69 @@
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #2a1f49;
+  color: #fbe1ad;
+  padding: 20px;
+  font-size: 22px;
+}
+#image {
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+  margin: auto auto;
+  display: block;
+  border-radius: 50%;
+  border: 4px solid #fbe1ad;
+}
+ul {
+  display: block;
+  max-width: 60%;
+  text-align: left;
+  font-size: 1em;
+  margin: 0 auto 60px auto;
+  line-height: 1.8;
+}
+li {
+  margin: 30px auto;
+  font-weight: 400;
+}
+#img-caption {
+  padding-top: 20px;
+}
+#img-caption,
+#description {
+  font-weight: 200;
+  font-size: 0.9em;
+}
+blockquote {
+  display: block;
+  font-style: italic;
+  max-width: 55%;
+  margin: 0 auto 60px auto;
+  text-align: left;
+}
+.wikipedia {
+  font-size: 0.9em;
+  margin: 0 auto 60px auto;
+}
+#tribute-link {
+  color: #9068ff;
+}
+#tribute-link:visited {
+  color: #9068ff;
+}
+#tribute-link:hover {
+  color: #6f51c4;
+}
+.artwork img {
+  width: 325px;
+  height: 500px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #24193d;
+}
+.artwork h2 {
+  max-width: 60%;
+  margin: 0 auto 60px auto;
+}
