@@ -1,8 +1,14 @@
+:root {
+  --background: #3b1f49;
+  --shadow: #2b1635;
+  --text-color: #fbe1ad;
+  --link: #9068ff;
+}
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: #3b1f49;
-  color: #fbe1ad;
+  background-color: var(--background);
+  color: var(--text-color);
   padding: 20px;
   font-size: 22px;
 }
@@ -13,7 +19,7 @@ body {
   margin: auto auto;
   display: block;
   border-radius: 50%;
-  border: 4px solid #fbe1ad;
+  border: 4px solid var(--text-color);
 }
 ol {
   display: block;
@@ -48,10 +54,10 @@ blockquote {
   margin: 0 auto 60px auto;
 }
 #tribute-link {
-  color: #9068ff;
+  color: var(--link);
 }
 #tribute-link:visited {
-  color: #9068ff;
+  color: var(--link);
 }
 #tribute-link:hover {
   color: #6f51c4;
@@ -62,9 +68,9 @@ blockquote {
   object-fit: cover;
   margin: 10px;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px 2px #24193d;
+  box-shadow: 2px 2px 2px 2px var(--shadow);
 }
-.artwork h2 {
+.artwork h3 {
   max-width: 60%;
   margin: 0 auto 60px auto;
 }
